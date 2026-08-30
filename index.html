@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#07101f" media="(prefers-color-scheme: dark)">
   <meta name="theme-color" content="#eef4ff" media="(prefers-color-scheme: light)">
-  <meta name="description" content="Privacy policy for DocPinch: Photo to PDF. Documents are processed on your device and are not uploaded to DocPinch.">
+  <meta name="description" content="Privacy policy for DocPinch: Image to PDF Maker. Documents are processed on your device and are not uploaded to DocPinch.">
   <meta property="og:title" content="DocPinch Privacy Policy">
   <meta property="og:description" content="Your documents stay on your device. Read how DocPinch handles files, local data, advertising, permissions, and Google Play purchases.">
   <meta property="og:type" content="website">
@@ -66,7 +66,7 @@
     <article class="policy-card">
       <section class="policy-section">
         <h2>1. Scope</h2>
-        <p>This Privacy Policy explains how the Android application <strong>DocPinch: Photo to PDF</strong> ("DocPinch", "the app", "we", or "us") handles information. It applies to the app and this public privacy-policy website.</p>
+        <p>This Privacy Policy explains how the Android application <strong>DocPinch: Image to PDF Maker</strong> ("DocPinch", "the app", "we", or "us") handles information. It applies to the app and this public privacy-policy website.</p>
         <p>DocPinch is designed as a local-first utility. You do not need to create a DocPinch account to select photos, edit pages, create a PDF, save it, or share it.</p>
       </section>
 
@@ -79,7 +79,7 @@
           <tbody>
             <tr>
               <td data-label="Data">Selected photos</td>
-              <td data-label="Use">Read locally to preview, edit, compress, and create your PDF.</td>
+              <td data-label="Use">Copied into app-private working storage and read locally to recover your draft, preview, edit, compress, and create your PDF. The original is not changed.</td>
               <td data-label="Sent to us?"><span class="status">No</span></td>
             </tr>
             <tr>
@@ -129,8 +129,8 @@
 
       <section class="policy-section" id="processing">
         <h2>3. Local processing and temporary files</h2>
-        <p>Image decoding, crop and rotation, compression, PDF assembly, and PDF verification are performed on your Android device. A photo captured through the system camera is stored in app-private files while its project still references it. Processed pages and a temporary PDF may be stored in app-private cache while a task is running or recoverable.</p>
-        <p>The app removes unreferenced camera sources and disposable processing files during cleanup. A PDF you explicitly save outside the app remains under your control and is not deleted by DocPinch cache cleanup.</p>
+        <p>Image decoding, crop and rotation, compression, PDF assembly, and PDF verification are performed on your Android device. To keep a draft recoverable after the app or device restarts, a photo you select with the system picker is copied once into app-private working storage while its project references it. A photo captured through the system camera is stored there for the same purpose. DocPinch does not modify or delete the original photo.</p>
+        <p>Processed pages and a temporary PDF may be stored in app-private cache while a task is running or recoverable. <strong>Clear cache</strong> removes disposable processing files. <strong>Clear project data</strong> removes the active draft, its private photo working copies, and disposable cache, but it does not delete original photos or PDFs you explicitly saved through Android's system file picker. Uninstalling the app removes its private working storage.</p>
         <p>App backup is disabled to reduce the chance that sensitive project data or temporary documents are included in operating-system cloud backup or device transfer.</p>
       </section>
 
@@ -163,7 +163,7 @@
 
       <section class="policy-section" id="retention">
         <h2>7. Retention and deletion</h2>
-        <p>Because project and document data stay on your device, you control most retention directly. You can remove a recent-file entry, clear app cache, delete projects, delete saved PDFs from their destination, clear app storage, or uninstall DocPinch.</p>
+        <p>Because project and document data stay on your device, you control most retention directly. You can remove a recent-file entry, clear disposable cache, use Clear project data to remove the draft and its private working copies, delete saved PDFs from their destination, clear app storage, or uninstall DocPinch.</p>
         <p>Google retains advertising, consent, and Google Play transaction information according to Google's policies, your choices, and legal obligations. Public support messages submitted to GitHub are retained according to GitHub's services and can be edited or deleted subject to GitHub account and repository controls.</p>
       </section>
 
