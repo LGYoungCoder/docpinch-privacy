@@ -7,7 +7,7 @@
   <meta name="theme-color" content="#eef4ff" media="(prefers-color-scheme: light)">
   <meta name="description" content="Privacy policy for DocPinch: Photo to PDF. Documents are processed on your device and are not uploaded to DocPinch.">
   <meta property="og:title" content="DocPinch Privacy Policy">
-  <meta property="og:description" content="Your documents stay on your device. Read how DocPinch handles files, local data, permissions, and Google Play purchases.">
+  <meta property="og:description" content="Your documents stay on your device. Read how DocPinch handles files, local data, advertising, permissions, and Google Play purchases.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://lgyoungcoder.github.io/docpinch-privacy/">
   <link rel="icon" href="icon.svg" type="image/svg+xml">
@@ -51,8 +51,8 @@
         <div class="summary-icon" aria-hidden="true">
           <svg viewBox="0 0 24 24"><path d="M4 7h16v12H4z"/><path d="m4 9 8 5 8-5"/><path d="M8 4h8"/></svg>
         </div>
-        <h3>No ads or analytics</h3>
-        <p>The current app does not include advertising or third-party analytics SDKs.</p>
+        <h3>Ads stay separate</h3>
+        <p>Ads may use device and interaction data, but DocPinch never gives the advertising SDK your photos or PDFs.</p>
       </article>
       <article class="summary-card">
         <div class="summary-icon" aria-hidden="true">
@@ -103,13 +103,28 @@
               <td data-label="Sent to us?">Processed by Google Play; not used to upload documents.</td>
             </tr>
             <tr>
+              <td data-label="Data">Temporary Pro expiry</td>
+              <td data-label="Use">After you earn a rewarded-ad benefit, the app stores the local time when 24-hour Pro access ends.</td>
+              <td data-label="Sent to us?"><span class="status">No</span></td>
+            </tr>
+            <tr>
+              <td data-label="Data">Advertising data</td>
+              <td data-label="Use">Google Mobile Ads may automatically process an IP address, app and ad interactions, diagnostic information, and device or account identifiers to serve ads, measure performance, and prevent fraud.</td>
+              <td data-label="Sent to us?">Processed by Google advertising services; never includes your photos, PDFs, file names, or content URIs.</td>
+            </tr>
+            <tr>
+              <td data-label="Data">Advertising consent</td>
+              <td data-label="Use">Google User Messaging Platform checks whether a privacy message is required and stores or communicates your advertising choices.</td>
+              <td data-label="Sent to us?">Processed by Google under the applicable consent flow.</td>
+            </tr>
+            <tr>
               <td data-label="Data">Rating or review</td>
               <td data-label="Use">After an eligible successful export, DocPinch may ask Google Play to show its in-app review flow. Any star rating or optional review text you submit is sent to Google Play.</td>
               <td data-label="Sent to us?">Processed by Google Play; a public review may be visible to us and other Play users.</td>
             </tr>
           </tbody>
         </table>
-        <p>The current app does not use advertising SDKs, third-party analytics SDKs, a DocPinch account system, or a DocPinch document-conversion backend.</p>
+        <p>The current app uses Google Mobile Ads and Google User Messaging Platform. It does not use a separate third-party analytics SDK, a DocPinch account system, or a DocPinch document-conversion backend.</p>
       </section>
 
       <section class="policy-section" id="processing">
@@ -125,15 +140,19 @@
           <li><strong>Photos:</strong> DocPinch uses Android Photo Picker. It does not request broad access to your entire photo library.</li>
           <li><strong>Camera:</strong> DocPinch can ask the system camera app to capture a page using a scoped content URI. The current design does not request the Android CAMERA runtime permission.</li>
           <li><strong>Files:</strong> Android's Storage Access Framework lets you choose where to create the PDF. DocPinch does not request All Files Access.</li>
-          <li><strong>Network:</strong> Google Play Billing adds Internet and network-state permissions for purchase and entitlement operations. These permissions are not used to upload your selected photos or generated PDFs.</li>
+          <li><strong>Network:</strong> Google Play Billing, Google Mobile Ads, and Google User Messaging Platform use Internet and network-state access for purchases, ads, fraud prevention, and privacy choices. These permissions are not used to upload your selected photos or generated PDFs.</li>
+          <li><strong>Advertising identifier:</strong> the Google Mobile Ads SDK may access the Android advertising ID when it is available. You can reset or delete it through Android settings; Google may use other identifiers as described in its SDK disclosure.</li>
         </ul>
       </section>
 
       <section class="policy-section" id="google-play">
-        <h2>5. Google Play services</h2>
+        <h2>5. Google services, advertising, and purchases</h2>
+        <p>Free users may see a bottom banner. You may also choose to watch a rewarded ad; DocPinch grants 24 hours of Pro access only after the advertising SDK confirms that you earned the reward. Temporary and Lifetime Pro users do not receive new ad requests while their entitlement is active.</p>
+        <p>Where required, DocPinch asks Google User Messaging Platform to display a consent message before requesting ads. If Google requires a privacy-options entry point, it appears in DocPinch Settings so you can review or change your choice.</p>
+        <p>Google Mobile Ads may collect and share IP-address information, app interactions, diagnostic information, and device or account identifiers for advertising, analytics, and fraud prevention. Its behavior can vary with your region, consent, device settings, and ad configuration. DocPinch does not pass selected photos, generated PDFs, file names, document URIs, extracted text, or document metadata to the advertising SDK.</p>
         <p>If you view or buy Lifetime Pro, Google Play may process purchase, account, device, network, tax, fraud-prevention, and payment information under Google's own terms and privacy policy. DocPinch receives product details and purchase/entitlement state needed to unlock the feature; we do not receive your full payment-card details.</p>
         <p>After you have successfully used the app, DocPinch may request Google Play's in-app review flow. If Google Play displays the flow, you may submit a star rating and optional review text. Google Play encrypts and processes that submission for a public Play Store review, or for private developer feedback while the app is in a closed test. You can delete a submitted review through your Google Play Store or Google Account controls.</p>
-        <p>Learn more in the <a href="https://policies.google.com/privacy" rel="noopener noreferrer">Google Privacy Policy</a> and <a href="https://play.google.com/about/play-terms/" rel="noopener noreferrer">Google Play Terms of Service</a>.</p>
+        <p>Learn more in the <a href="https://policies.google.com/privacy" rel="noopener noreferrer">Google Privacy Policy</a>, <a href="https://developers.google.com/admob/android/privacy/play-data-disclosure" rel="noopener noreferrer">Google Mobile Ads data disclosure</a>, and <a href="https://play.google.com/about/play-terms/" rel="noopener noreferrer">Google Play Terms of Service</a>.</p>
       </section>
 
       <section class="policy-section" id="diagnostics">
@@ -145,12 +164,12 @@
       <section class="policy-section" id="retention">
         <h2>7. Retention and deletion</h2>
         <p>Because project and document data stay on your device, you control most retention directly. You can remove a recent-file entry, clear app cache, delete projects, delete saved PDFs from their destination, clear app storage, or uninstall DocPinch.</p>
-        <p>Google retains Google Play transaction information according to Google's policies and legal obligations. Public support messages submitted to GitHub are retained according to GitHub's services and can be edited or deleted subject to GitHub account and repository controls.</p>
+        <p>Google retains advertising, consent, and Google Play transaction information according to Google's policies, your choices, and legal obligations. Public support messages submitted to GitHub are retained according to GitHub's services and can be edited or deleted subject to GitHub account and repository controls.</p>
       </section>
 
       <section class="policy-section" id="children">
         <h2>8. Children</h2>
-        <p>DocPinch is a general productivity utility and is not directed to children. We do not knowingly operate an account or document service that collects children's personal information. Parents or guardians with a concern may contact us using the method below.</p>
+        <p>DocPinch is a general productivity utility and is not directed to children. Advertising requests are configured for a general-rated content ceiling, but the app is not enrolled as a child-directed product. We do not knowingly operate an account or document service that collects children's personal information. Parents or guardians with a concern may contact us using the method below.</p>
       </section>
 
       <section class="policy-section" id="security">
