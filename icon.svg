@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 108 108" role="img" aria-labelledby="title">
+  <title id="title">DocPinch</title>
+  <rect width="108" height="108" rx="26" fill="#0a66ff"/>
+  <path fill="#fff" d="M33 22h30l14 14v50H33z"/>
+  <path fill="#bfdbfe" d="M63 22v15h14z"/>
+  <path fill="#0a66ff" d="M42 50h26v5H42zm0 11h26v5H42zm0 11h18v5H42z"/>
+  <path fill="#f4b860" d="M28 43h8v22h-8zm44 0h8v22h-8z"/>
+</svg>
+
