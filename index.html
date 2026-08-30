@@ -28,6 +28,7 @@
       <a href="#summary">Summary</a>
       <a href="#data">Data</a>
       <a href="#permissions">Permissions</a>
+      <a href="terms.html">Terms</a>
       <a href="#contact">Contact</a>
     </nav>
   </header>
@@ -108,8 +109,8 @@
 
       <section class="policy-section" id="processing">
         <h2>3. Local processing and temporary files</h2>
-        <p>Image decoding, crop and rotation, compression, PDF assembly, and PDF verification are performed on your Android device. Temporary camera images, processed pages, or a temporary PDF may be stored in app-private cache while a task is running or recoverable.</p>
-        <p>The app removes disposable temporary files after successful completion, cancellation, cache cleanup, or an expiry window. A PDF you explicitly save outside the app remains under your control and is not deleted by DocPinch cache cleanup.</p>
+        <p>Image decoding, crop and rotation, compression, PDF assembly, and PDF verification are performed on your Android device. A photo captured through the system camera is stored in app-private files while its project still references it. Processed pages and a temporary PDF may be stored in app-private cache while a task is running or recoverable.</p>
+        <p>The app removes unreferenced camera sources and disposable processing files during cleanup. A PDF you explicitly save outside the app remains under your control and is not deleted by DocPinch cache cleanup.</p>
         <p>App backup is disabled to reduce the chance that sensitive project data or temporary documents are included in operating-system cloud backup or device transfer.</p>
       </section>
 
@@ -168,7 +169,7 @@
   </main>
 
   <footer class="site-footer">
-    <p>DocPinch · Local-first photo to PDF · No document-upload server</p>
+    <p>DocPinch · <a href="terms.html">Terms of Use</a> · Local-first photo to PDF · No document-upload server</p>
   </footer>
 </body>
 </html>
